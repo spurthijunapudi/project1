@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Digital Lab Record System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Digital Lab Record System</h2>
+<form id="labForm">
+<label>Student Name:</label>
+<input type="text" id="name" required><br><br>
+<label>Experiment Name:</label>
+<input type="text" id="experiment" required><br><br>
+<label>Date:</label>
+<input type="date" id="date" required><br><br>
+<label>Observation:</label><br>
+<textarea id="observation" rows="4" cols="30"></textarea><br><br>
+<button type="submit">Save Record</button>
+</form>
+<h3>Saved Records</h3>
+<ul id="records"></ul>
+<script src="script.js"></script>
+</body>
+</html>
